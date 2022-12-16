@@ -1,28 +1,36 @@
 @font-face {
-	font-family: "Sen";
+	font-family: "Akronim";
 	font-display: swap;
-	src: url(../fonts/Sen-Bold.woff2), url(../fonts/Sen-Bold.woff);
-	font-weight: 700;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'Sen-Regular';
-	font-display: swap;
-	src: url(../fonts/Sen-Regular.woff2), url(../fonts/Sen-Regular.woff);
-	font-weight: 700;
-	font-style: normal;
-}
-@font-face {
-	font-family: "Inter-Regular";
-	font-display: swap;
-	src: url(../fonts/Inter-Regular.woff2), url(../fonts/Inter-Regular.woff);
+	src: url(../fonts/Akronim-Regular.woff2), url(../fonts/Akronim-Regular.woff);
 	font-weight: 400;
 	font-style: normal;
 }
 @font-face {
-	font-family: "Inter-Medium";
+	font-family: "Koulen";
 	font-display: swap;
-	src: url(../fonts/Inter-Medium.woff2), url(../fonts/Inter-Medium.woff);
-	font-weight: 500;
+	src: url(../fonts/Koulen-Regular.woff2), url(../fonts/Koulen-Regular.woff);
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "MuktaVaani";
+	font-display: swap;
+	src: url(../fonts/MuktaVaani-Regular.woff2), url(../fonts/MuktaVaani-Regular.woff);
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Roboto";
+	font-display: swap;
+	src: url(../fonts/Roboto-Regular.woff2), url(../fonts/Roboto-Regular.woff);
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: "WorkSans";
+	font-display: swap;
+	src: url(../fonts/WorkSans-Regular.woff2), url(../fonts/WorkSans-Regular.woff);
+	font-weight: 400;
 	font-style: normal;
 }
