@@ -16,6 +16,30 @@
 		display: flex;
 		justify-content: space-between;
 	}
+	&__list {
+		p {
+			display: block;
+			font-size: 5rem;
+			color: red;
+			margin-top: 100px;
+		}
+		text-align: center;
+		height: 5000px;
+		width: 3000px;
+		margin-bottom: -3000px;
+		margin-top: -1580px;
+		margin-left: -400px;
+		margin-right: -400px;
+		background-color: #232536;
+		transform: translateY(-350%);
+		transition: all 0.3s;
+		display: none;
+		&--open {
+			transform: translateY(30%);
+			z-index: 1;
+			display: block;
+		}
+	}
 	&__content {
 		display: flex;
 		align-items: center;
@@ -169,11 +193,11 @@
 		letter-spacing: 10.6667px;
 		color: #7a797a;
 	}
-	&__content-images{
+	&__content-images {
 		height: auto;
 		width: 100%;
 	}
-	&__content-text{
+	&__content-text {
 		padding-top: 25px;
 		font-family: "Mukta Vaani";
 		font-size: 24px;
@@ -185,17 +209,17 @@
 	&__content-text--narrow {
 		max-width: 280px;
 	}
-	&__content-text--wide{
+	&__content-text--wide {
 		max-width: 410px;
 	}
-	&__footer{
+	&__footer {
 		display: flex;
 	}
-	&__footer-images{
+	&__footer-images {
 		padding-top: 100px;
 		margin-left: -200px;
 	}
-	.potted__slider-button{
+	.potted__slider-button {
 		margin-top: 110px;
 		padding-bottom: 180px;
 		padding-left: 500px;
